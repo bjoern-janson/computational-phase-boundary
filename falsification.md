@@ -32,13 +32,13 @@ $$
 t_\Lambda < t_\alpha < t_C
 $$
 
-The theory fails if historical analysis demonstrates that:
+The framework fails if historical analysis demonstrates that major computational transitions consistently exhibit:
 
 $$
 t_C \leq t_\Lambda
 $$
 
-in a substantial fraction of major paradigm transitions.
+after accounting for measurement uncertainty and available historical proxies.
 
 ## Interpretation
 
@@ -67,14 +67,16 @@ $$
 \Delta\Lambda_E \leq 0
 $$
 
-## Meaning
-
-A technology achieves a major capability transition without any measurable increase in:
+after accounting for available proxies of:
 
 - information extraction efficiency,
 - utility alignment,
 - iteration velocity,
-- or search-space accessibility.
+- search-space accessibility.
+
+## Meaning
+
+A technology achieves a major capability transition without any measurable increase in the mechanisms proposed to precede structural change.
 
 ## Consequence
 
@@ -111,7 +113,7 @@ Possible explanations:
 - incorrect utility alignment estimation,
 - missing selection pressure variables,
 - inaccessible deployment pathways,
-- incorrect assumption about causal relevance.
+- incorrect assumptions about causal relevance.
 
 A high rate of false positives would indicate that information velocity is not sufficient as a predictor.
 
@@ -141,12 +143,16 @@ An infinite delay would make the framework unfalsifiable.
 
 A major vulnerability is confusing structural change with increased resources.
 
-The framework predicts:
+The framework predicts that structural transformations produce greater gains in information efficiency than raw capability scaling:
 
 $$
-\frac{\partial\Lambda_E}{\partial r}_{structural}
+\left(
+\frac{\partial\log\Lambda_E}{\partial\log r}
+\right)_{\text{structural}}
 \gg
-\frac{\partial C}{\partial r}
+\left(
+\frac{\partial\log C}{\partial\log r}
+\right)_{\text{scaling}}
 $$
 
 A failure occurs if:
@@ -170,7 +176,7 @@ In this case, the transition is classified as exploitation rather than structura
 
 # 6. Description Length Failure
 
-Structural transitions should produce:
+Structural transitions should produce measurable reductions in the conditional description length of successful exploration pathways:
 
 $$
 \Delta L_\chi>0
@@ -188,9 +194,9 @@ $$
 
 A failure occurs if a supposed breakthrough:
 
-- does not reduce conditional description length,
+- does not reduce search-path description complexity,
 - does not absorb complexity into the mechanism,
-- does not reduce human/system specification burden.
+- does not reduce human or system specification burden.
 
 Such cases indicate ordinary optimization rather than a search-space transformation.
 
@@ -218,7 +224,7 @@ If these cases regularly appear indistinguishable from genuine transitions, then
 
 # 8. Geometry Failure
 
-The framework predicts that structural events modify the search geometry:
+The framework predicts that structural events modify the structure of the search process:
 
 $$
 \chi:
@@ -227,14 +233,14 @@ $$
 (g',n',U')
 $$
 
-A failure occurs if major transitions are consistently explained without changes to:
+A failure occurs if major transitions are consistently explained without any measurable change in:
 
 - representational distance,
 - accessibility,
 - searchable dimensionality,
 - evaluation efficiency.
 
-This would imply that geometry is unnecessary and progress follows simpler mechanisms.
+This would imply that search-space geometry is unnecessary and progress follows simpler mechanisms.
 
 ---
 
@@ -244,11 +250,11 @@ The theory claims a general mechanism across computational domains.
 
 Validation should therefore include multiple categories:
 
-- software abstraction
-- machine learning
-- hardware systems
-- scientific computing
-- engineering design
+- software abstraction,
+- machine learning,
+- hardware systems,
+- scientific computing,
+- engineering design.
 
 The framework weakens substantially if it only works within a single domain.
 
@@ -288,27 +294,27 @@ The theory succeeds only if these rankings outperform:
 
 ---
 
-# 12. Minimal Survival Condition
+# 12. Survival Criterion
 
 The framework survives only if:
 
 1. Information velocity precedes capability growth.
 2. The lead time is bounded.
 3. The effect survives resource controls.
-4. False positives are manageable.
+4. False positives remain manageable.
 5. The signal generalizes across domains.
 
 Formally:
 
 $$
 \boxed{
-\Delta\Lambda_E
->
-0
+\Delta\Lambda_E>0
+\land
+\Delta A>0
+\land
+S>0
 \Rightarrow
-\Delta C
->
-0
+\Delta C>0
 \quad
 \text{within}
 \quad
