@@ -10,11 +10,11 @@ They are defined by how the system changes the process by which future capabilit
 
 The central abstraction:
 
-\[
+$$
 \boxed{
 \text{Progress occurs when exploration itself becomes more efficient.}
 }
-\]
+$$
 
 ---
 
@@ -22,13 +22,13 @@ The central abstraction:
 
 Across historical examples, phase boundaries appear to share a common transformation:
 
-\[
+$$
 \boxed{
 \text{agent carries complexity}
 \rightarrow
 \text{interface absorbs complexity}
 }
-\]
+$$
 
 A system advances when previously externalized reasoning, optimization, or coordination requirements become embedded into a computational mechanism.
 
@@ -62,19 +62,19 @@ This creates a distinction:
 
 ## Capability scaling
 
-\[
+$$
 \text{more resources}
 \rightarrow
 \text{better execution}
-\]
+$$
 
 ## Search transformation
 
-\[
+$$
 \text{better exploration process}
 \rightarrow
 \text{new capability frontier}
-\]
+$$
 
 A technology can be extremely powerful while producing only incremental improvements to the search process.
 
@@ -86,19 +86,19 @@ Conversely, a seemingly small abstraction change can create a major capability c
 
 Traditional classification:
 
-\[
+$$
 \text{object}
 \rightarrow
 \text{category}
-\]
+$$
 
 CPB classification:
 
-\[
+$$
 \text{mechanism}
 \rightarrow
 \text{search transformation}
-\]
+$$
 
 The relevant question becomes:
 
@@ -117,51 +117,51 @@ This shifts analysis away from surface properties and toward dynamics:
 
 An unexpected observation emerged when comparing CPB with unrelated classification systems.
 
-The same abstraction appears in different domains:
+The same abstraction appears in different domains.
 
 ## Computational systems
 
-\[
+$$
 \text{interface}
 \rightarrow
 \text{search geometry}
 \rightarrow
 \text{capability}
-\]
+$$
 
 ## Cognitive systems
 
-\[
+$$
 \text{stimulus}
 \rightarrow
 \text{internal representation}
 \rightarrow
 \text{mental trajectory}
-\]
+$$
 
 A similar structure appears in music taxonomy, where classification evolved from:
 
-\[
+$$
 \text{song}
 \rightarrow
 \text{genre}
-\]
+$$
 
 toward:
 
-\[
+$$
 \text{song}
 \rightarrow
 \text{cognitive state transition}
-\]
+$$
 
 The shared principle:
 
-\[
+$$
 \boxed{
 \text{Systems can be classified by the transformations they induce, not only by what they contain.}
 }
-\]
+$$
 
 ---
 
@@ -169,33 +169,33 @@ The shared principle:
 
 A critical constraint emerged during self-analysis of the framework:
 
-\[
+$$
 \boxed{
 \text{beautiful compression}
 \neq
 \text{useful interface}
 }
-\]
+$$
 
 A theory can achieve:
 
-\[
+$$
 \Delta L_\chi > 0
-\]
+$$
 
 by reducing conceptual complexity.
 
 However, this does not guarantee:
 
-\[
+$$
 \Delta\Lambda_E > 0
-\]
+$$
 
 or increased search capability.
 
 The transition from theory to tool requires:
 
-\[
+$$
 \boxed{
 \text{compression}
 \rightarrow
@@ -205,7 +205,7 @@ The transition from theory to tool requires:
 \rightarrow
 \text{capability}
 }
-\]
+$$
 
 A successful framework must not only describe search processes.
 
@@ -251,10 +251,10 @@ Initial question:
 
 Compressed into:
 
-\[
+$$
 \Phi =
 D_{KL}(P(X|you)||P(X|\neg you))
-\]
+$$
 
 Significance became information distance.
 
@@ -286,7 +286,7 @@ Compressed into:
 
 The progression:
 
-\[
+$$
 \boxed{
 \text{many observations}
 \rightarrow
@@ -294,7 +294,7 @@ The progression:
 \rightarrow
 \text{larger explanatory scope}
 }
-\]
+$$
 
 ---
 
@@ -311,13 +311,13 @@ A successful CPB framework should allow people unfamiliar with the concepts to:
 
 The critical distinction:
 
-\[
+$$
 \boxed{
 \text{beautiful explanation}
 \neq
 \text{functional cognitive interface}
 }
-\]
+$$
 
 The framework becomes significant only if it changes the search behavior of other systems.
 
@@ -327,11 +327,11 @@ The framework becomes significant only if it changes the search behavior of othe
 
 The current synthesis:
 
-\[
+$$
 \boxed{
 \text{A phase boundary occurs when a system transforms the mechanism by which it explores possibility space.}
 }
-\]
+$$
 
 A phase boundary is therefore not merely:
 
@@ -351,15 +351,15 @@ The central empirical question:
 
 That requires moving from:
 
-\[
+$$
 \text{framework describing exploration}
-\]
+$$
 
 to:
 
-\[
+$$
 \text{interface improving exploration}
-\]
+$$
 
 The final test is not whether CPB explains innovation.
 
