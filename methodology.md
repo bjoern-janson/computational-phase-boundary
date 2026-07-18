@@ -29,7 +29,7 @@ where:
 - $\alpha$ represents accessibility of a computational basin.
 - $C$ represents realized capability.
 
-The theory predicts:
+The framework predicts:
 
 $$
 t_{\Lambda} < t_{\alpha} < t_C
@@ -160,6 +160,8 @@ where:
 | $E_A$ | Economic accessibility |
 | $P_A$ | Prior search attention |
 
+The exponential form is an initial operational model chosen to represent multiplicative friction effects. Alternative functional forms may be evaluated during empirical validation.
+
 The goal is not to measure accessibility directly, but to estimate changes in accessibility over time.
 
 ---
@@ -174,6 +176,8 @@ $$
 \Delta L_\chi > 0
 \land
 \Delta A > 0
+\land
+\Delta L_\chi > \Delta L_{\text{background}}
 $$
 
 where:
@@ -186,6 +190,8 @@ L(\mathcal D|M_{new})
 $$
 
 represents the reduction in conditional description length caused by a new mechanism.
+
+The structural contribution must exceed ordinary compression caused by accumulated knowledge within the existing paradigm.
 
 Examples:
 
@@ -207,8 +213,8 @@ Examples:
 
 - assembly → compiler abstraction
 - manual derivatives → automatic differentiation
-- CUDA kernels → tensor frameworks
-- convolutional architectures → attention-based architectures
+- CUDA optimization → tensor frameworks
+- CNN-dominant vision architectures → attention-based architectures
 
 ---
 
@@ -237,6 +243,23 @@ Cases where capability increased without measurable prior information velocity g
 This is the strongest falsification test.
 
 If such cases are common, the framework's central causal claim fails.
+
+---
+
+# Proxy Estimation Limits
+
+Several core variables are not directly observable historically.
+
+The empirical program therefore relies on proxy reconstruction.
+
+Primary uncertainties include:
+
+- estimating mutual information from incomplete historical records
+- distinguishing structural information gain from accumulated domain knowledge
+- separating resource scaling effects from genuine search efficiency improvements
+- estimating utility alignment when historical objectives were implicit
+
+The purpose of the methodology is not to recover exact values of latent variables, but to test whether relative changes in these variables provide predictive signal.
 
 ---
 
@@ -302,4 +325,4 @@ The remaining task is empirical:
 3. Compare precursor signals against capability transitions.
 4. Evaluate predictive performance.
 
-The theory succeeds only if information velocity provides a measurable and reliable leading indicator of computational phase transitions.
+The framework is evaluated by whether information velocity provides a measurable and reliable leading indicator of computational phase transitions.
