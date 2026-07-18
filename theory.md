@@ -105,7 +105,7 @@ This determines which configurations are considered successful.
 
 # 2. Capability Evolution
 
-Capability growth is modeled as the interaction between accessibility and available gradients:
+Capability evolution is modeled as the interaction between accessibility and available gradients:
 
 $$
 dC_t =
@@ -126,6 +126,8 @@ where:
 - $\sigma dW_t$ represents stochastic discovery.
 
 Capability is therefore not determined only by potential. It depends on whether the system can access the relevant regions of possibility space.
+
+This equation is a proposed dynamical model for empirical investigation, not an assumed physical law.
 
 ---
 
@@ -159,7 +161,7 @@ $$
 D_R
 $$
 
-measures the distance between human/system abstractions and the structure required to manipulate the target configuration.
+measures the distance between system abstractions and the structure required to manipulate the target configuration.
 
 Examples:
 
@@ -175,7 +177,7 @@ $$
 T_M
 $$
 
-represents the availability of mechanisms that reduce exploration friction:
+represents mechanisms that reduce exploration friction:
 
 - compilers
 - libraries
@@ -274,7 +276,7 @@ $$
 g\rightarrow g'
 $$
 
-The space remains the same, but distances change.
+The space remains similar, but distances change.
 
 Examples:
 
@@ -298,10 +300,10 @@ The system gains new searchable degrees of freedom.
 Examples:
 
 - programmable GPUs
-- differentiable programming
-- new model architectures
+- new computational abstractions
+- architectures enabling previously inaccessible classes of models
 
-The space itself expands.
+The effective search space expands.
 
 ---
 
@@ -315,6 +317,8 @@ $$
 \Delta L_\chi>0
 \land
 \Delta A>0
+\land
+\Delta L_\chi>\Delta L_{\text{background}}
 $$
 
 where:
@@ -329,7 +333,7 @@ $$
 
 measures the reduction in conditional description length produced by the new mechanism.
 
-A genuine breakthrough compresses the complexity previously carried by the human operator or external process.
+A genuine breakthrough compresses complexity previously carried by the human operator or external process.
 
 ---
 
@@ -355,7 +359,7 @@ $$
 t_\Lambda<t_\alpha<t_C
 $$
 
-Capability growth is a lagging consequence of earlier changes in search efficiency.
+Capability growth is predicted to be a lagging consequence of earlier changes in search efficiency.
 
 ---
 
@@ -367,7 +371,7 @@ $$
 \Delta_r O
 $$
 
-It increases traversal speed without changing the search geometry.
+It increases traversal speed within an existing search geometry.
 
 Structural change is:
 
@@ -383,7 +387,7 @@ $$
 \frac{\Delta_\chi O}{\Delta_r O}\gg1
 $$
 
-A revolution occurs when structural leverage dominates raw scaling.
+A paradigm shift occurs when structural leverage dominates raw scaling.
 
 ---
 
@@ -436,6 +440,8 @@ $$
 t_C-t_\Lambda<\tau
 $$
 
+The horizon $\tau$ must be specified before evaluation and must not be adjusted after observing outcomes.
+
 ---
 
 # Conclusion
@@ -447,3 +453,11 @@ Progress occurs not only through better machines, but through better mechanisms 
 The fundamental unit of technological transition is therefore not merely an invention.
 
 It is a transformation of the search process itself.
+
+---
+
+# Model Status
+
+This document defines the theoretical framework and mathematical objects of the Computational Evolution model.
+
+The framework remains an empirical hypothesis requiring validation through historical datasets, proxy reconstruction, and falsification testing.
