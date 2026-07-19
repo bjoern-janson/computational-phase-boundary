@@ -141,7 +141,7 @@ Both classify systems by the trajectories they induce over time.
 
 ## Why This Matters
 
-A weak framework typically transfers poorly.
+Unexpected improvements in an unrelated domain are consistent with a framework capturing a more general abstraction, although such transfer alone does not establish correctness.
 
 Applying it to another domain usually produces:
 
