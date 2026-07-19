@@ -12,15 +12,15 @@ Compilers produced a phase boundary by absorbing low-level execution complexity 
 
 The predicted causal chain:
 
-\[
-\Delta L_{\chi} \rightarrow \Delta \Lambda_E \rightarrow \Delta \alpha \rightarrow \Delta C
-\]
+```
+ΔL_chi → ΔΛ_E → Δα → ΔC
+```
 
 with bounded transition latency:
 
-\[
-\tau < \infty
-\]
+```
+τ < ∞
+```
 
 ---
 
@@ -39,11 +39,16 @@ The programmer carried responsibility for:
 
 This produced high description length:
 
-\[
-L_{\chi}(\text{program})
-\]
+```
+L_chi(program)
+```
 
-because solving a problem required encoding both the algorithm and the execution strategy.
+because solving a problem required encoding both:
+
+- the algorithm,
+- the execution strategy.
+
+The programming process was constrained by hardware-specific knowledge, limiting who could effectively explore computational problems.
 
 ---
 
@@ -57,20 +62,32 @@ Historical examples:
 
 - FORTRAN (1957)
 - LISP (1958)
-- COBOL (1959)
 - ALGOL (1958)
+- COBOL (1959)
 
 Transformation:
 
-\[
-\text{Problem}
-\rightarrow
-\text{High-Level Program}
-\rightarrow
-\text{Compiler}
-\rightarrow
-\text{Machine}
-\]
+Before:
+
+```
+Problem
+→
+Assembly Instructions
+→
+Machine
+```
+
+After:
+
+```
+Problem
+→
+High-Level Program
+→
+Compiler
+→
+Machine
+```
 
 The compiler absorbed:
 
@@ -85,63 +102,79 @@ The compiler absorbed:
 
 ### Description Length Absorption
 
-\[
-\Delta L_{\chi} > 0
-\]
+Prediction:
+
+```
+ΔL_chi > 0
+```
 
 Complexity moved from the programmer into the compiler layer.
 
 The programmer specifies intent; the compiler handles execution details.
 
+Result:
+
+- shorter programs,
+- increased portability,
+- reduced implementation burden.
+
 ---
 
 ### Iteration Velocity
 
-\[
-\Delta \Lambda_E > 0
-\]
+Prediction:
+
+```
+ΔΛ_E > 0
+```
 
 The feedback loop changed from:
 
-\[
-\text{Idea}
-\rightarrow
-\text{Manual Implementation}
-\rightarrow
-\text{Debugging}
-\]
+```
+Idea
+→
+Manual Implementation
+→
+Debugging
+```
 
 to:
 
-\[
-\text{Idea}
-\rightarrow
-\text{High-Level Code}
-\rightarrow
-\text{Compile}
-\rightarrow
-\text{Test}
-\]
+```
+Idea
+→
+High-Level Code
+→
+Compile
+→
+Test
+```
 
 More hypotheses became testable per unit time.
+
+The bottleneck shifted from machine management to problem solving.
 
 ---
 
 ### Search Basin Expansion
 
-\[
-\Delta \alpha > 0
-\]
+Prediction:
+
+```
+Δα > 0
+```
 
 Compilers reduced representational distance:
 
-\[
-D_R \downarrow
-\]
+```
+D_R ↓
+```
 
 between human goals and executable programs.
 
 Programming became accessible to a larger population and enabled new computational domains.
+
+The search geometry changed by shortening the path from abstract intent to working software.
 
 ---
 
@@ -157,11 +190,15 @@ Compiler abstraction enabled:
 
 The key shift:
 
-\[
-\frac{\text{software exploration}}
-{\text{human effort}}
-\uparrow
-\]
+```
+software exploration
+--------------------
+human effort
+
+↑
+```
+
+The same computational resources became capable of supporting vastly more human-generated complexity.
 
 ---
 
@@ -169,9 +206,29 @@ The key shift:
 
 ### Hardware Scaling
 
-Hardware improvements were necessary but insufficient.
+Hardware improvements were necessary contributors.
+
+However, hardware alone was insufficient.
 
 Compilers acted as a structural multiplier by increasing the usefulness of existing computational resources.
+
+The transition was not simply:
+
+```
+more powerful hardware
+→
+more software
+```
+
+but:
+
+```
+better abstraction
+→
+greater human computational leverage
+→
+more software exploration
+```
 
 ---
 
@@ -181,8 +238,8 @@ Compilers acted as a structural multiplier by increasing the usefulness of exist
 |---|---|
 | Structural intervention | ✅ |
 | Historical traceability | ✅ |
-| ΔLχ mechanism | ✅ |
-| ΔΛE mechanism | ✅ |
+| ΔL_chi mechanism | ✅ |
+| ΔΛ_E mechanism | ✅ |
 | Δα expansion | ✅ |
 | Bounded τ | ✅ |
 | Confounding factors | ⚠️ Hardware scaling |
@@ -194,26 +251,24 @@ Compilers acted as a structural multiplier by increasing the usefulness of exist
 
 Assembly → Compilers supports the CPB mechanism:
 
-\[
-\boxed{
-\Delta L_{\chi}
-\rightarrow
-\Delta \Lambda_E
-\rightarrow
-\Delta \alpha
-\rightarrow
-\Delta C
-}
-\]
+```
+ΔL_chi
+→
+ΔΛ_E
+→
+Δα
+→
+ΔC
+```
 
 It demonstrates the recurring CPB pattern:
 
-\[
-\text{Complexity absorption}
-\rightarrow
-\text{information velocity increase}
-\rightarrow
-\text{expanded search basin}
-\rightarrow
-\text{capability transition}
-\]
+```
+Complexity absorption
+→
+information velocity increase
+→
+expanded search basin
+→
+capability transition
+```
