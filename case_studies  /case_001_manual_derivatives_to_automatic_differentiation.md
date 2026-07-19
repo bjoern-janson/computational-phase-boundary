@@ -1,7 +1,7 @@
 # Case #1: Manual Derivatives → Automatic Differentiation
 
-**Domain:** Machine Learning / Optimization
-**Transition:** Manual gradient specification → automated gradient generation
+**Domain:** Machine Learning / Optimization  
+**Transition:** Manual gradient specification → automated gradient generation  
 **Classification:** Strong candidate structural transition
 
 ---
@@ -12,15 +12,15 @@ Automatic differentiation (AD) produced a phase boundary by absorbing derivative
 
 The predicted causal chain:
 
-[
-\Delta L_{\chi} \rightarrow \Delta \Lambda_E \rightarrow \Delta \alpha \rightarrow \Delta C
-]
+```
+ΔL_chi → ΔΛ_E → Δα → ΔC
+```
 
 with bounded transition latency:
 
-[
-\tau < \infty
-]
+```
+τ < ∞
+```
 
 ---
 
@@ -41,17 +41,17 @@ Each architecture change incurred:
 
 This increased:
 
-[
-T_{iteration}, C_{iteration}
-]
+```
+T_iteration, C_iteration
+```
 
 and limited architecture exploration.
 
 The optimization process had high description length:
 
-[
-L_{\chi}(\text{model + optimization dynamics})
-]
+```
+L_chi(model + optimization dynamics)
+```
 
 ---
 
@@ -66,7 +66,6 @@ Relevant milestones:
 * foundational work: 1950s–1980s
 * practical AD research: 1980s–2000s
 * ML adoption:
-
   * Theano
   * TensorFlow
   * PyTorch
@@ -75,23 +74,23 @@ The transformation:
 
 Before:
 
-[
-\text{Architecture}
-\rightarrow
-\text{Human Gradient Derivation}
-\rightarrow
-\text{Experiment}
-]
+```
+Architecture
+→
+Human Gradient Derivation
+→
+Experiment
+```
 
 After:
 
-[
-\text{Architecture}
-\rightarrow
-\text{Automatic Differentiation}
-\rightarrow
-\text{Experiment}
-]
+```
+Architecture
+→
+Automatic Differentiation
+→
+Experiment
+```
 
 ---
 
@@ -101,9 +100,9 @@ After:
 
 Prediction:
 
-[
-\Delta L_{\chi} > 0
-]
+```
+ΔL_chi > 0
+```
 
 AD absorbs derivative complexity into infrastructure.
 
@@ -121,9 +120,9 @@ Result:
 
 Prediction:
 
-[
-\Delta \Lambda_E > 0
-]
+```
+ΔΛ_E > 0
+```
 
 AD reduces the cost of experimentation.
 
@@ -142,15 +141,15 @@ The effective information gained per iteration increases.
 
 Prediction:
 
-[
-\Delta \alpha > 0
-]
+```
+Δα > 0
+```
 
 AD reduces representational distance:
 
-[
-D_R \downarrow
-]
+```
+D_R ↓
+```
 
 between researcher intent and executable optimization.
 
@@ -175,11 +174,13 @@ However, AD changed the efficiency of exploration itself.
 
 The relevant shift:
 
-[
-\frac{\text{architectural exploration}}
-{\text{human effort}}
-\uparrow
-]
+```
+architectural exploration
+-------------------------
+human effort
+
+↑
+```
 
 ---
 
@@ -187,24 +188,24 @@ The relevant shift:
 
 Expected ordering:
 
-[
-\chi_g \rightarrow \Delta\Lambda_E \rightarrow \Delta C
-]
+```
+χ_g → ΔΛ_E → ΔC
+```
 
 Observed:
 
-| Event                      | Period      |
-| -------------------------- | ----------- |
-| AD foundations             | 1950s–1980s |
-| Practical tooling          | 2000s–2010s |
-| ML framework adoption      | 2010s       |
+| Event | Period |
+|---|---|
+| AD foundations | 1950s–1980s |
+| Practical tooling | 2000s–2010s |
+| ML framework adoption | 2010s |
 | Deep learning acceleration | 2012 onward |
 
 Transition latency:
 
-[
-\tau \approx \text{years}
-]
+```
+τ ≈ years
+```
 
 consistent with bounded domain transitions.
 
@@ -230,17 +231,17 @@ AD increased the efficiency of resource utilization.
 
 The transition is not:
 
-[
-\text{no gradients} \rightarrow \text{gradients}
-]
+```
+no gradients → gradients
+```
 
 The transition is:
 
-[
-\text{manual optimization specification}
-\rightarrow
-\text{automatic optimization infrastructure}
-]
+```
+manual optimization specification
+→
+automatic optimization infrastructure
+```
 
 The phase boundary is the change in representation and accessibility.
 
@@ -252,9 +253,9 @@ The phase boundary is the change in representation and accessibility.
 
 Would fail if:
 
-[
-C \uparrow \quad \text{without} \quad \Lambda_E \uparrow
-]
+```
+C ↑ without Λ_E ↑
+```
 
 Evidence does not strongly support this.
 
@@ -272,10 +273,10 @@ Evidence suggests compute was necessary but insufficient.
 
 AD represents a geometry transformation:
 
-[
-\chi_g:
-G_{before} \rightarrow G_{after}
-]
+```
+χ_g:
+G_before → G_after
+```
 
 The path from idea to experiment becomes shorter.
 
@@ -287,16 +288,16 @@ It changed the topology of the search space by converting derivative computation
 
 ## Assessment
 
-| Criterion                     | Result                  |
-| ----------------------------- | ----------------------- |
-| Clear structural intervention | ✅                       |
-| Historical traceability       | ✅                       |
-| Supports ΔLχ                  | ✅                       |
-| Supports ΔΛE                  | ✅                       |
-| Supports Δα                   | ✅                       |
-| Bounded τ                     | ✅                       |
-| Confounding factors           | ⚠️ Compute/data overlap |
-| Overall confidence            | Strong candidate        |
+| Criterion | Result |
+|---|---|
+| Clear structural intervention | ✅ |
+| Historical traceability | ✅ |
+| Supports ΔL_chi | ✅ |
+| Supports ΔΛ_E | ✅ |
+| Supports Δα | ✅ |
+| Bounded τ | ✅ |
+| Confounding factors | ⚠️ Compute/data overlap |
+| Overall confidence | Strong candidate |
 
 ---
 
@@ -304,16 +305,14 @@ It changed the topology of the search space by converting derivative computation
 
 Manual derivatives → automatic differentiation provides positive evidence for the CPB mechanism:
 
-[
-\boxed{
-\Delta L_{\chi}
-\rightarrow
-\Delta \Lambda_E
-\rightarrow
-\Delta \alpha
-\rightarrow
-\Delta C
-}
-]
+```
+ΔL_chi
+→
+ΔΛ_E
+→
+Δα
+→
+ΔC
+```
 
 It suggests that absorbing representational complexity into infrastructure can produce capability phase transitions by reshaping the geometry of search.
