@@ -188,7 +188,7 @@ This observation also strengthens the conceptual bridge between Interface-Induce
 * **CPB** studies when those geometric changes produce capability transitions.
 * The playlist taxonomy can be interpreted as a phenomenological analogue, where representations reshape **cognitive geometry** rather than computational geometry.
 
-The three frameworks therefore share a common representational perspective while operating at different scales.
+One possible interpretation is that the three frameworks share a common representational perspective.
 
 ---
 
